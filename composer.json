@@ -13,7 +13,7 @@
   "type": "library",
   "require": {
     "phpunit/phpunit": "~4.0",
-    "mockery/mockery": "0.9.*",
+    "mockery/mockery": "~0.9",
     "php": ">=5.3.0",
     "ext-curl": "*",
     "symfony/http-foundation": "^2.0.5"
