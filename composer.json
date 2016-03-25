@@ -1,0 +1,28 @@
+{
+  "name": "etiennemarais/curl-wrapper",
+  "description": "Curl wrapper for easy api service consumptions with easier header management",
+  "keywords": ["Curl", "Api", "Wrapper", "Headers", "Header"],
+  "authors": [
+    {
+      "name": "Etienne Marais",
+      "email": "hello@etiennemarais.co.za",
+      "role": "Developer"
+    }
+  ],
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "phpunit/phpunit": "~4.0",
+    "mockery/mockery": "0.9.*",
+    "php": ">=5.3.0",
+    "ext-curl": "*",
+    "symfony/http-foundation": "^2.0.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "CurlWrapper\\": "src/",
+      "CurlWrapper\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable"
+}
